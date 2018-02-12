@@ -1,0 +1,22 @@
+body {
+	font-family: 'Barlow Condensed', sans-serif;
+	font-style: normal;
+	background-color: gray;
+
+}
+
+
+h1,h2,h3,h4 {
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	color: white;
+}
+
+.product-price h2 {
+	color: red;
+}
+
+button small{
+	color: red;
+}
