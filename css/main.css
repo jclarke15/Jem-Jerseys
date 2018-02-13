@@ -25,6 +25,12 @@ body {
 	background-color: black;
 }
 
+.top-bar-section li.active:not(.has-form) a:not(.button):hover,
+.top-bar-section li.active:not(.has-form) a:not(.button){
+	color: #fff;
+	background-color: white;
+	font-weight: 700;
+
 /* MAIN */
 
 
