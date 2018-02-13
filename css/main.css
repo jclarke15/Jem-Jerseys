@@ -41,8 +41,9 @@ h1,h2,h3,h4 {
 	color: white;
 }
 
-h5{
+h5 {
 	text-align: center;
+	color: white;
 }
 
 .product-price h2 {
