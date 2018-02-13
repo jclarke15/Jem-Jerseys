@@ -7,6 +7,10 @@ body {
 
 /* HEADER */
 
+.name img{
+	height: 50px;
+}
+
 .top-bar {
 	background-color: red;
 }
