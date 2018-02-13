@@ -5,6 +5,20 @@ body {
 
 }
 
+/* HEADER */
+
+.top-bar {
+	background-color: red;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+	color: white;
+	background-color: red;
+}
+
+
 
 h1,h2,h3,h4 {
 	font-family: 'Barlow Condensed', sans-serif;
@@ -20,3 +34,6 @@ h1,h2,h3,h4 {
 button small{
 	color: red;
 }
+
+/* FOOTER /*
+
