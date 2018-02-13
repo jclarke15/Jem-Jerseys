@@ -18,6 +18,11 @@ body {
 	background-color: red;
 }
 
+.top-bar-section li:not(.has-form):active:hover,
+.top-bar-section li:not(.has-form):hover,
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	color: #fff;
+	background-color: #388E3C;
 /* MAIN */
 
 
