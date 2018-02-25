@@ -8,7 +8,7 @@ body {
 /* HEADER */
 
 .name img{
-	height: 30px;
+	height: 45px;
 	padding-top: 5px
 }
 
@@ -39,6 +39,11 @@ body {
 
 /* MAIN */
 
+main{
+  font-family: 'Roboto', sans-serif;'
+}
+
+
 
 h1,h2,h3,h4 {
 	font-family: 'Barlow Condensed', sans-serif;
@@ -56,6 +61,55 @@ h5 {
 	color: red;
 }
 
+main img:hover {
+	opacity: .6;
+}
+
+figure { 
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+figcaption {
+  opacity: .6;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #212121;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  transition: all .4s ease;
+  box-sizing: border-box;
+}
+
+.textgroup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.textgroup h1 {
+  margin: 0 0 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #fff;
+}
+
+.textgroup p {
+  margin: 0;
+  padding-top: 6px;
+  font-style: italic;
+
+}
+
+figure:hover figcaption {
+  top: 0;
+
+}
 
 
 /* FOOTER */
